@@ -1,0 +1,75 @@
+/*Public*/
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.clr{
+    clear: both;
+}
+
+/*Private*/
+.navbar {
+    width: 800;
+    height: 800;
+    background-color: rgb(24, 101, 100);
+}
+.container {
+    width: 90%;
+    height: 30px;
+    position: relative;
+
+}
+.Logo{
+    display: flex;
+}
+.Logo img{
+    box-sizing: border-box;
+    width: 20%;
+
+}
+.List ul{
+    list-style-type: none;
+    text-transform: uppercase;
+    display: flex;
+    position: absolute;
+    right:0px;
+    top:0px;
+}
+
+.List li{
+    padding-left: 20px;
+    color: rgb(255, 255, 255);
+}
+.portfolio{
+    height: fit-content;
+    
+}
+.headline h1{
+    width: fit-content;
+    margin: auto;
+}
+.text p {
+    width: fit-content;
+    margin: auto;
+    font-family: monospace;
+    font-weight: 900;
+}
+.container2{
+    background-color: aqua;
+    width: 600px;
+    height: fit-content;
+    margin:auto;
+
+}
+.products ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.products li{
+    width: 200px;
+}
+.products img{
+    width: 200px;
+}
